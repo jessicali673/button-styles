@@ -9,6 +9,7 @@ html {
 
 div {
   padding: .5rem;
+  margin: .5rem;
   text-align: center;
 }
 
@@ -55,4 +56,59 @@ div {
   padding: .4em .75em .3em;
   border-width: 3px;
   border-color: #000;
+}
+
+.btn-warning {
+  text-decoration: none;
+  background-color: #f33;
+  color: #fff;
+  border-style: solid;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-color: #f33;
+}
+
+#btn a:hover {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  border-style: solid;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-color: #000;
+}
+
+#btn-subtle a:hover {
+  text-decoration: none;
+  background-color: #666;
+  color: #fff;
+  border-style: solid;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-color: #666;
+}
+
+#btn-ghost a:hover {
+  text-decoration: none;
+  background-color: #666;
+  color: #fff;
+  border-style: solid;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-color: #666;
+}
+
+#btn-warning a:hover {
+  text-decoration: none;
+  background-color: #933;
+  color: #fff;
+  border-style: solid;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-color: #933;
 }

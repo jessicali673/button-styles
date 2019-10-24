@@ -11,3 +11,37 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+.btn-normal {
+  font-size: 1.125rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  border-style: solid;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-color: #333;
+}
+
+.btn-subtle {
+  text-decoration: none;
+  background-color: #ccc;
+  color: #fff;
+  border-style: solid;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  border-width: 3px;
+  border-color: #ccc;
+}

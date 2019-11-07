@@ -9,12 +9,7 @@ html {
 
 div {
   padding: .5rem;
-  margin: .5rem;
   text-align: center;
-}
-
-.btn-normal {
-  font-size: 1.125rem;
 }
 
 .btn-small {
@@ -26,89 +21,52 @@ div {
 }
 
 .btn {
+  font-size: 1.125rem;
+  display: block;
   text-decoration: none;
-  background-color: #333;
-  color: #fff;
-  border-style: solid;
   border-radius: 8px;
   padding: .4em .75em .3em;
   border-width: 3px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
   border-color: #333;
 }
 
 .btn-subtle {
-  text-decoration: none;
   background-color: #ccc;
   color: #fff;
-  border-style: solid;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  border-width: 3px;
   border-color: #ccc;
 }
 
-.btn-ghost {
-  text-decoration: none;
-  background-color: #fff;
-  color: #000;
-  border-style: solid;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  border-width: 3px;
-  border-color: #000;
-}
-
 .btn-warning {
-  text-decoration: none;
   background-color: #f33;
   color: #fff;
-  border-style: solid;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  border-width: 3px;
   border-color: #f33;
 }
 
-#btn a:hover {
-  text-decoration: none;
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
-  border-style: solid;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  border-width: 3px;
   border-color: #000;
 }
 
-#btn-subtle a:hover {
-  text-decoration: none;
+.btn-subtle:hover {
   background-color: #666;
   color: #fff;
-  border-style: solid;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  border-width: 3px;
   border-color: #666;
 }
 
-#btn-ghost a:hover {
-  text-decoration: none;
+.btn-ghost:hover {
   background-color: #666;
   color: #fff;
-  border-style: solid;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  border-width: 3px;
   border-color: #666;
 }
 
-#btn-warning a:hover {
-  text-decoration: none;
+.btn-warning:hover {
   background-color: #933;
-  color: #fff;
-  border-style: solid;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  border-width: 3px;
   border-color: #933;
 }

@@ -8,8 +8,85 @@ html {
 }
 
 div {
-  padding: .5rem;
+  padding: .4em .75em;
   text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background-color: #333;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+}
+
+.btn a {
+  text-decoration: none;
+  padding: .4em .75em;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  display: inline-block;
+  background-color: #000;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  color: #fff;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: .4rem;
+  margin-top: .5rem;
+}
+
+.btn-subtle:hover {
+  background-color: #333;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: .4rem;
+}
+
+.btn-ghost:hover {
+  background-color: #333;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: .5rem;
+}
+
+.btn-warning:hover {
+  color: #933;
+}
+
+div:nth-child(1) {
+  font-size: 1.125rem;
+  padding-top: 0;
+}
+
+div:nth-child(5) {
+  font-size: .875rem;
+  padding-top: 0;
+}
+
+div:nth-child(9) {
+  font-size: 1.5rem;
+  padding-top: 0;
 }
 
 .btn-small {
@@ -20,53 +97,7 @@ div {
   font-size: 1.5rem;
 }
 
-.btn {
+.btn-primary {
   font-size: 1.125rem;
-  display: block;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
-  border-width: 3px;
-  text-align: center;
-}
-
-.btn {
-  background-color: #333;
-  color: #fff;
-  border-color: #333;
-}
-
-.btn-subtle {
-  background-color: #ccc;
-  color: #fff;
-  border-color: #ccc;
-}
-
-.btn-warning {
-  background-color: #f33;
-  color: #fff;
-  border-color: #f33;
-}
-
-.btn-primary:hover {
-  background-color: #000;
-  color: #fff;
-  border-color: #000;
-}
-
-.btn-subtle:hover {
-  background-color: #666;
-  color: #fff;
-  border-color: #666;
-}
-
-.btn-ghost:hover {
-  background-color: #666;
-  color: #fff;
-  border-color: #666;
-}
-
-.btn-warning:hover {
-  background-color: #933;
-  border-color: #933;
+  padding: .4em .75em;
 }
